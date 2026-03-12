@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of a Cyber Security Graduate. Dark to Light theme showcasing skills, resume, and contact links.">
+    <title>Cyber Security Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+    <!-- Background Elements -->
+    <div class="body-bg-image"></div>
+    <div class="background-glow"></div>
+    <div class="grid-overlay"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">Danvir <span class="highlight">Bhargava</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                        <span class="icon-sun">☀️</span>
+                        <span class="icon-moon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero-section">
+            <div class="hero-content glass-card">
+                <div class="profile-container">
+                    <img src="profile.jpg" alt="Profile Photo" class="profile-image">
+                </div>
+                <h1 class="glitch-text" data-text="Cyber Security Graduate">Cyber Security Graduate</h1>
+                <p class="subtitle">Cyber Security graduate from Macquarie University with hands-on experience in software engineering, secure systems development, and applied AI. Experienced in Python, C, Java, and cloud-based technologies through internships with Objective Corporation and QuintessenceLabs.</p>
+                <div class="action-buttons">
+                    <a href="resume.pdf" class="btn primary-btn" download>Download Resume</a>
+                    <a href="https://www.linkedin.com/in/danvir-bhargava-801606256/" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">LinkedIn</a>
+                    <a href="https://github.com/danvirbhargava" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li><i class="devicon-java-plain colored"></i> Java</li>
+                        <li><i class="devicon-python-plain colored"></i> Python</li>
+                        <li><i class="devicon-c-plain colored"></i> C</li>
+                        <li><i class="devicon-sqldeveloper-plain colored"></i> SQL</li>
+                        <li><i class="devicon-javascript-plain colored"></i> Javascript</li>
+                        <li><i class="devicon-html5-plain colored"></i> HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Frameworks</h3>
+                    <ul class="skill-list">
+                        <li><i class="devicon-flask-original colored"></i> Flask</li>
+                        <li><i class="devicon-junit-plain colored"></i> JUnit</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Developer Tools & Cloud</h3>
+                    <ul class="skill-list">
+                        <li><i class="devicon-git-plain colored"></i> Git</li>
+                        <li><i class="devicon-vscode-plain colored"></i> VSCode</li>
+                        <li><i class="devicon-eclipse-plain colored"></i> Eclipse</li>
+                        <li><i class="devicon-linux-plain colored"></i> VMware</li>
+                        <li><i class="devicon-apple-original colored"></i> UTM</li>
+                        <li><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS</li>
+                        <li><i class="devicon-firebase-plain colored"></i> Firebase</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Libraries</h3>
+                    <ul class="skill-list">
+                        <li><i class="devicon-pandas-plain colored"></i> pandas</li>
+                        <li><i class="devicon-numpy-plain colored"></i> NumPy</li>
+                        <li><i class="devicon-python-plain colored"></i> argparse</li>
+                        <li><i class="devicon-python-plain colored"></i> requests</li>
+                        <li><i class="devicon-selenium-original colored"></i> selenium</li>
+                        <li><i class="devicon-python-plain colored"></i> BeautifulSoup</li>
+                        <li><i class="devicon-scikitlearn-plain colored"></i> scikit-learn</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3>Security Tools</h3>
+                    <ul class="skill-list">
+                        <li><i class="devicon-kali-plain colored"></i> kali-linux</li>
+                        <li><i class="devicon-network-plain colored"></i> Wireshark</li>
+                        <li><i class="devicon-linux-plain colored"></i> Autopsy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                
+                <div class="project-card glass-card">
+                    <h3>Web-based Defect Detection Platform</h3>
+                    <div class="project-tags">
+                        <span>Javascript</span><span>Firebase</span><span>AWS</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Led a team of six in collaboration with DefecTech to enhance their building inspection software</li>
+                        <li>Integrated Matterport API to embed 3D models and allow note-taking directly on virtual walkthroughs</li>
+                        <li>Enhanced project workflow by implementing internal/external project types and conditional routing logic</li>
+                    </ul>
+                </div>
+
+                <div class="project-card glass-card">
+                    <h3>ESPN Fantasy Transaction Analyzer</h3>
+                    <div class="project-tags">
+                        <span>Python</span><span>Data Analysis</span>
+                    </div>
+                    <p class="project-desc">This is a for fun project designed to analyze transaction activity in ESPN NBA Fantasy leagues. It connects to your league and aggregates data to show:</p>
+                    <ul class="project-features">
+                        <li>Which teams are the most active (counting unique adds/drops/trades).</li>
+                        <li>Which players are the most frequently transacted.</li>
+                    </ul>
+                    <p class="project-desc">Provides a simple way to see who is trying the hardest (or panicking the most) in your fantasy league!</p>
+                </div>
+
+                <div class="project-card glass-card password-gen-card">
+                    <h3>Secure Password Generator</h3>
+                    <div class="project-tags">
+                        <span>Python (PyQt6) Replica</span><span>Security</span>
+                    </div>
+                    <p class="project-desc">A modern, secure password generator application originally built with Python and PyQt6. Try the web-based replica below:</p>
+                    
+                    <div class="pwd-gen-app">
+                        <div class="pwd-display">
+                            <input type="text" id="pwd-result" readonly placeholder="Click Generate">
+                            <button id="pwd-copy" aria-label="Copy Password" title="Copy to clipboard">📋</button>
+                        </div>
+                        
+                        <div class="pwd-controls">
+                            <div class="pwd-length">
+                                <label for="pwd-slider">Length: <span id="pwd-length-val">16</span></label>
+                                <input type="range" id="pwd-slider" min="8" max="32" value="16">
+                            </div>
+                            
+                            <div class="pwd-options">
+                                <label><input type="checkbox" id="pwd-upper" checked> Uppercase</label>
+                                <label><input type="checkbox" id="pwd-lower" checked> Lowercase</label>
+                                <label><input type="checkbox" id="pwd-nums" checked> Numbers</label>
+                                <label><input type="checkbox" id="pwd-syms" checked> Symbols</label>
+                            </div>
+                            
+                            <button id="pwd-generate" class="btn primary-btn" style="width: 100%; margin-top: 1rem;">Generate Password</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>&copy; <span id="year"></span> Danvir Bhargava. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/danvir-bhargava-801606256/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/danvirbhargava" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
