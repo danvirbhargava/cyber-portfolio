@@ -1,6 +1,6 @@
 # Cyber Security Portfolio
 
-A modern, responsive personal portfolio website designed for a Cyber Security graduate.
+This is a personal portfolio website that highlights my technical skills, projects, and experience. It serves as a central place to showcase the work I have completed, the technologies I use, and the areas of software development and cybersecurity that I am interested in.
 
 ## Features
 
@@ -8,15 +8,6 @@ A modern, responsive personal portfolio website designed for a Cyber Security gr
 - **Categorized Skills:** A comprehensive breakdown of technical competencies including languages, frameworks, developer tools, and security tools, complete with Devicon integration.
 - **Interactive Projects Section:** Showcases key projects, including a fully functional, web-based replica of a Secure Password Generator.
 - **Responsive Layout:** Built with a mobile-first approach using CSS Grid/Flexbox for optimal viewing across devices.
-
-## Setup & Running
-
-This project uses raw HTML, CSS, and vanilla Javascript with no build step required.
-
-To run locally:
-1. Clone the repository to your local machine.
-2. Ensure you have the background assets (`bg.png` and `bg-light.png`) and your profile picture (`profile.jpg`) in the root directory.
-3. Open `index.html` in any modern web browser.
 
 ## Technologies Used
 
