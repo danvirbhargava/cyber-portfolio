@@ -493,10 +493,9 @@ body.theme-light .skill-category:hover {
    =============================================
 */
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
-    align-items: start;
 }
 
 .project-card {

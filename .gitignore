@@ -1,0 +1,4 @@
+# Ignore media files
+profile.jpg
+resume.pdf
+.DS_Store
