@@ -487,6 +487,100 @@ body.theme-light .skill-category:hover {
     text-align: center;
 }
 
+.custom-skill-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin: 0 3px;
+}
+
+/* 
+   =============================================
+   Experience Section
+   =============================================
+*/
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.experience-card {
+    padding: 2.5rem;
+    border-radius: 16px;
+    transition: var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-card:hover {
+    transform: translateX(5px);
+    box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.2);
+    border-left: 4px solid var(--primary-color);
+}
+
+body.theme-light .experience-card:hover {
+    box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.experience-title-group h3 {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-bottom: 0.3rem;
+}
+
+.experience-title-group h3 span {
+    font-size: 1.1rem;
+    font-family: var(--font-sans);
+    font-weight: 500;
+}
+
+.experience-title-group h4 {
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.experience-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.experience-location {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+}
+
+.experience-details {
+    padding-left: 1.2rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.experience-details li {
+    margin-bottom: 0.8rem;
+}
+
 /* 
    =============================================
    Projects Section
