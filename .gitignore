@@ -2,3 +2,6 @@
 profile.jpg
 resume.pdf
 .DS_Store
+*.png
+*.jpg
+*.jpeg
