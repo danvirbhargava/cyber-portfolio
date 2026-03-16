@@ -430,30 +430,14 @@ body.theme-light .primary-btn:hover {
     overflow: hidden;
 }
 
-.skill-category::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: var(--primary-color);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease;
-}
-
 .skill-category:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: var(--primary-color);
 }
 
 body.theme-light .skill-category:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-}
-
-.skill-category:hover::after {
-    transform: scaleX(1);
 }
 
 .skill-category h3 {
@@ -515,13 +499,13 @@ body.theme-light .skill-category:hover {
 }
 
 .experience-card:hover {
-    transform: translateX(5px);
-    box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.2);
-    border-left: 4px solid var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: var(--primary-color);
 }
 
 body.theme-light .experience-card:hover {
-    box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .experience-header {
@@ -615,9 +599,15 @@ body.theme-light .project-card:hover {
 
 .project-card h3 {
     font-size: 1.35rem;
-    color: var(--primary-color);
+    color: var(--text-color);
     margin-bottom: 1rem;
     font-family: var(--font-mono);
+}
+
+.project-card h3 span {
+    font-size: 1.05rem;
+    font-family: var(--font-sans);
+    font-weight: 500;
 }
 
 .project-tags {
